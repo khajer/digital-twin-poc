@@ -35,11 +35,9 @@ python3 -m venv .venv
 ```
 ### active virtual environment
 ```sh
-source .venv/bin/activate
-```
-### deactive
-```sh
-deactivate
+source .venv/bin/activate 
+
+# deactivate
 ```
 
 ### install
