@@ -1,7 +1,7 @@
 # POC digital twin
 Playground for digital Twin Concept.
 
-this project is a simulating function. it makes models from from data (csv) with MLyou adjust input data. and see the result
+this project is a simulating function. it makes models from from data (csv) with ML. you adjust input data. and see the result
 
 Objective
 - You have the model.
