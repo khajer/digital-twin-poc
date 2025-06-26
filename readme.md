@@ -58,6 +58,6 @@ python gen_data.py > data.csv
 ### Trainning
 trainning and testing
 
-```
-python main.py > data.csv
+```shell
+python main.py
 ```
