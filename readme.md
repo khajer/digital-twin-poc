@@ -1,16 +1,13 @@
 # POC digital twin
 Playground for digital Twin Concept.
 
-this project is a simulating function.
-it makes models from from data (csv) with ML
-you adjust input data. and see the result
+this project is a simulating function. it makes models from from data (csv) with MLyou adjust input data. and see the result
 
 Objective
-
-You have the model.
-You set goal the result and try to set input.
-finally. you have a plan follow the goal with you custom input(like a playing game)
-(optional)it shoud be automatic & have multi plan.
+- You have the model.
+- You set goal the result and try to set input.
+- finally. you have a plan follow the goal with you custom input(like a playing game)
+- (optional)it shoud be automatic & have multi plan.
 
 
 ## The flow step is:
