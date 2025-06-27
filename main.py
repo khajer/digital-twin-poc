@@ -2,6 +2,9 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import matplotlib.pyplot as plt
+import joblib  # Added for model saving
+
+
 
 model = LinearRegression()
 def main():
@@ -20,6 +23,10 @@ def main():
     print("trainning model")
     # training
     model.fit(X, y)
+
+    # Save the trained model
+    joblib.dump(model, 'linear_model.joblib')
+    print("Model saved to 'linear_model.joblib'")
 
     print("Model Coefficients:", model.coef_)
     print("Model Intercept:", model.intercept_)
@@ -61,4 +68,5 @@ def predict(input1, input2, input3):
     return model.predict([[input1, input2, input3]])[0]
 
 
-main()
+if __name__ == "__main__":
+    main()
